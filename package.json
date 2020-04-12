@@ -1,0 +1,22 @@
+{
+  "name": "homework_8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bad-code.js",
+  "scripts": {
+    "eslint": "eslint bad-code.js --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm eslint",
+      "pre-push": "npm test"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5"
+  }
+}
